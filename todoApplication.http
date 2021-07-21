@@ -1,0 +1,14 @@
+###
+get http://localhost:3000/todos/?category=WORK&status=DONE
+  
+####
+get http://localhost:3000/todos/:todoId/
+
+
+####
+
+put http://localhost:3000/todos/:todoId
+
+Content-Type: application/json       
+         
+{"status": "DONE"}
